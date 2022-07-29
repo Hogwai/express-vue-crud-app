@@ -1,48 +1,42 @@
-# REST endpoints with Node.js, Express.js and MongoDB
+# Vue 3 CRUD App
+(Back: Node.js, Express.js and MongoDB / Front: Vue 3, Bootstrap 4)
 
 ## Installation
 ### Requirements
 - Node.js
-- npm or Yarn
+- npm
 - MongoDB
 
 ### Steps
 Clone the repository on your local machine
 
-Use your package manager to install the dependancies:
+
+### Backend
+Use your package manager to install the backend dependancies:
 ```
 npm install
 ```
-
-Launch the server:
+Launch the backend server:
 ```
 npm start
 ```
 
-### Endpoints
-Create a contact: POST with form-urlencoded
-
+### Frontend
+Use your package manager to install the frontend dependancies:
 ```
-http://localhost:3000/contact
+cd frontend
 ```
-
-Update a contact: PUT with form-urlencoded
 ```
-http://localhost:3000/contact/:contactId
+npm install
 ```
 
-Get all contacts: GET
+Launch the frontend app:
 ```
-http://localhost:3000/contact
-```
-
-Get a contact by ID: GET
-```
-http://localhost:3000/contact/:contactId
+npm run serve
 ```
 
-Delete a contact: DELETE
+The application should be available at this url:
 ```
-http://localhost:3000/contact/:contactId
+http://localhost:8080
 ```
 
